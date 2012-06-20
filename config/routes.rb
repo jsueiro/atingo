@@ -1,5 +1,5 @@
 SampleApp::Application.routes.draw do
-  get "users/new"
+  resources :users #REST, implementa GET, DELETE, etc como http
 
   root to: 'static_pages#home'
   match '/signup',  to: 'users#new'
