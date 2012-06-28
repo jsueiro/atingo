@@ -2,6 +2,7 @@
 
 /* variables para scss */
 $lightGray: #999;
+$SuperlightGray: #bbb;
 $grayMediumLight: #eaeaea;
 
 /* universal */
@@ -49,6 +50,15 @@ h2 {
   text-align: center;
   font-weight: normal;
   color: $lightGray;
+}
+
+h3 {
+  font-size: 1.2em;
+  letter-spacing: -0.5px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: $SuperlightGray;
 }
 
 p {
